@@ -51,6 +51,7 @@ gallery-2.jpg
 /src
 
 styles.css
+
 index.html
 
 ## 👩🏽‍💻 Author
