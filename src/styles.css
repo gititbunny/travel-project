@@ -69,6 +69,13 @@ body {
   background-color: #462cb3;
   text-decoration: none;
 }
+.trip-gallery {
+  margin: 30px 0;
+}
+
+.trip-photos {
+  width: 100%;
+}
 
 section {
   max-width: 100%;
