@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #fff3e2;
 }
 
 .container {
@@ -40,12 +40,17 @@ body {
 }
 
 .card {
-  background: white;
+  background: #fffefc;
   margin: 30px 0;
+  border-radius: 5px;
 }
 
 .card-header.grid {
   grid-gap: 0;
+}
+
+.card-header img {
+  border-radius: 0;
 }
 
 .card-body {
@@ -66,9 +71,15 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #5f310e;
   text-decoration: none;
+  border-radius: 5px;
 }
+
+.btn:hover {
+  background-color: #867d2c;
+}
+
 .trip-gallery {
   margin: 30px 0;
 }
@@ -84,11 +95,11 @@ section {
 }
 
 section.secondary {
-  background-color: #f8f8f8;
+  background-color: #ffe9cb;
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(95, 49, 14, 0.9), rgba(0, 0, 0, 0.6)),
     url("../images/kruger-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,11 +142,22 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: white;
+  background: #fff3e2;
+  color: #5f310e;
+  border-radius: 5px;
+}
+
+header a:hover {
+  background: #867d2c;
+  color: white;
+}
+
+img {
+  border-radius: 5px;
 }
 
 main {
-  background-color: white;
+  background-color: #fff3e2;
 }
 
 main h2 {
@@ -144,7 +166,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #272044;
+  color: #000000;
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -153,7 +175,7 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
-  color: #272044;
+  color: #bc6c25;
   margin: 0;
 }
 
@@ -161,7 +183,7 @@ main h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
-  color: #272044;
+  color: #6e8328;
   margin: 0;
 }
 
@@ -170,7 +192,7 @@ main h5 {
   font-size: 13px;
   margin: 0;
   line-height: 1;
-  color: #272044;
+  color: #6e8328;
 }
 
 main p {
@@ -178,16 +200,13 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: #54441b;
   opacity: 0.7;
 }
 
 footer {
   color: white;
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
-    ),
+  background-image: linear-gradient(rgba(95, 49, 14, 0.9), rgba(0, 0, 0, 0.6)),
     url("../images/kruger-footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
