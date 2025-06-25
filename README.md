@@ -35,6 +35,7 @@ kruger-elephant.jpg
 kruger-header.jpg
 
 kruger-footer.jpg
+
 /activities
 
 kruger-lions.jpg
@@ -42,12 +43,21 @@ kruger-lions.jpg
 kruger-eat.jpg
 
 kruger-spa.jpg
+
 /gallery
 
 gallery-1.png
 
 gallery-2.jpg
-...
+
+gallery-3.jpg
+
+gallery-4.jpg
+
+gallery-5.jpg
+
+gallery-6.jpg
+
 /src
 
 styles.css
